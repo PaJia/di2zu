@@ -22,7 +22,7 @@ public class application extends Application {
         super.onCreate();
         application = this;
         DaoMaster.DevOpenHelper mast = new DaoMaster.DevOpenHelper(this, "stu.db");
-        DaoMaster daoMaster = new DaoMaster(mast.getWritableDatabase());
+     hajksdfiaisdkfkkasdfs
         daoSession = daoMaster.newSession();
     }
 
